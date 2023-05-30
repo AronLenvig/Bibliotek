@@ -20,7 +20,9 @@ namespace Bibliotek
         public void CreateNewLaaner(string navn)
         {
             int laanerNummer = laanerListe.LastOrDefault()?.laanerNummer + 1 ?? 1;
-            laanerListe.Add(new Laaner(laanerNummer, navn));
+            string biblioteksNavnEmail = biblioteksNavn.Replace(" ", "-");
+            string email = $"{navn}@{biblioteksNavnEmail}.dk";
+            laanerListe.Add(new Laaner(laanerNummer, navn, email));
         }
 
         public string HentBibliotekName()
@@ -35,11 +37,6 @@ namespace Bibliotek
             string todayDato = dateTimeNow.ToString("dd/MM/yyyy");
             //"Velkommen til <biblioteksNavn> - datoen idag er: <aktuel dato>"
             return $"Velkommen til {biblioteksNavn} - datoen idag er: {todayDato}";
-        }
-
-        public void OpretLaaner(int laanerNummer, string navn)
-        {
-            laanerListe.Add(new Laaner(laanerNummer, navn));
         }
 
         public string HentLaaner(int laanerNummer)
@@ -57,7 +54,7 @@ namespace Bibliotek
                 return "Der findes ikke en låner med det nummer";
             }
 
-            return $"Lånernummer: {laaner.laanerNummer} - Navn: {laaner.navn} er låner hos: {biblioteksNavn}";
+            return $"Lånernummer: {laaner.laanerNummer} - Navn: {laaner.navn} - Email: {laaner.email} er låner hos: {biblioteksNavn}";
         }
 
         public string HentAllLaanere()
