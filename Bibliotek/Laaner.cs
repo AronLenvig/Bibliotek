@@ -5,16 +5,14 @@ using System.Threading.Tasks;
 
 namespace Bibliotek
 {
-    public class Laaner
+    public class Laaner : Person
     {
-        public int laanerNummer { get; private set; }
+        public int laanerNummer { get; }
 
-        public string navn { get; private set; }
-
-        public Laaner(int laanerNummer, string navn)
+        public Laaner(int laanerNummer, string navn, string email)
+            : base(navn, email)
         {
             this.laanerNummer = laanerNummer;
-            this.navn = navn;
         }
     }
 }

@@ -10,9 +10,9 @@
             biblotekListe.Add(new Biblotek("Odense bibliotek"));
             biblotekListe.Add(new Biblotek("København bibliotek"));
 
-            biblotekListe[0].OpretLaaner(1, "Mikkel");
-            biblotekListe[0].OpretLaaner(2, "Mads");
-            biblotekListe[0].OpretLaaner(3, "Harry Potter");
+            biblotekListe[0].CreateNewLaaner("Mikkel");
+            biblotekListe[0].CreateNewLaaner("Mads");
+            biblotekListe[0].CreateNewLaaner("Harry Potter");
         }
 
         public static void Main(string[] args)
@@ -90,7 +90,7 @@
                 if (userOption == "4")
                 {
                     break;
-                }
+                } 
 
                 ChoicenBiblotekInput(userOption, choicenBiblotek);
             }
