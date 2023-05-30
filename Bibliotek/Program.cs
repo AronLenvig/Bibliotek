@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace Bibliotek
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            Biblotek biblotek = new Biblotek("Sønderborg bibliotek");
+            System.Console.WriteLine(biblotek.HentBibliotek());
+
+        }
+    }
+}
