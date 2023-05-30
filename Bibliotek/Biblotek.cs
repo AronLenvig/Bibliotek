@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Text;
 
 namespace Bibliotek
 {
@@ -9,7 +10,7 @@ namespace Bibliotek
     {
         private string biblioteksNavn;
 
-        private Laaner laanerListe;
+        private List<Laaner> laanerListe = new List<Laaner>();
 
         public Biblotek(string navn)
         {
@@ -27,13 +28,26 @@ namespace Bibliotek
 
         public void OpretLaaner(int laanerNummer, string navn)
         {
-            laanerListe = new Laaner(laanerNummer, navn);
+            laanerListe.Add(new Laaner(laanerNummer, navn));
         }
 
         public string HentLaaner(int laanerNummer)
         {
             //Lånernummer: <laanerNummer> - Navn: <navn> er låner hos: <biblioteksNavn".
-            return $"Lånernummer: {laanerNummer} - Navn: {laanerListe.navn} er låner hos: {biblioteksNavn}";
+            Laaner laaner = laanerListe.Find(laaner => laaner.laanerNummer == laanerNummer);
+            return $"Lånernummer: {laaner.laanerNummer} - Navn: {laaner.navn} er låner hos: {biblioteksNavn}";
+        }
+
+        public string HentAllLaanere()
+        {
+            //create a stringbulder
+            StringBuilder sb = new StringBuilder();
+            foreach (Laaner laaner in laanerListe)
+            {
+                sb.Append(HentLaaner(laaner.laanerNummer));
+                sb.Append("\n");
+            }
+            return sb.ToString();
         }
     }
 }
