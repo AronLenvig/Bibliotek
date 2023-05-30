@@ -17,6 +17,17 @@ namespace Bibliotek
             biblioteksNavn = navn;
         }
 
+        public void CreateNewLaaner(string navn)
+        {
+            int laanerNummer = laanerListe.LastOrDefault()?.laanerNummer + 1 ?? 1;
+            laanerListe.Add(new Laaner(laanerNummer, navn));
+        }
+
+        public string HentBibliotekName()
+        {
+            return biblioteksNavn;
+        }
+
         public string HentBibliotek()
         {
             
@@ -34,7 +45,18 @@ namespace Bibliotek
         public string HentLaaner(int laanerNummer)
         {
             //Lånernummer: <laanerNummer> - Navn: <navn> er låner hos: <biblioteksNavn".
-            Laaner laaner = laanerListe.Find(laaner => laaner.laanerNummer == laanerNummer);
+            if (laanerListe.Count == 0)
+            {
+                return "Der er ingen lånere";
+            }
+
+            Laaner? laaner = laanerListe.Find(laaner => laaner.laanerNummer == laanerNummer);
+
+            if (laaner == null)
+            {
+                return "Der findes ikke en låner med det nummer";
+            }
+
             return $"Lånernummer: {laaner.laanerNummer} - Navn: {laaner.navn} er låner hos: {biblioteksNavn}";
         }
 
@@ -42,6 +64,10 @@ namespace Bibliotek
         {
             //create a stringbulder
             StringBuilder sb = new StringBuilder();
+            if (laanerListe.Count == 0)
+            {
+                return "Der er ingen lånere";
+            }
             foreach (Laaner laaner in laanerListe)
             {
                 sb.Append(HentLaaner(laaner.laanerNummer));
