@@ -1,0 +1,289 @@
+{
+  "S\u00F8nderborg bibliotek": [
+    [
+      {
+        "LaanerNummer": 1,
+        "Navn": "Mikkel",
+        "Email": "Mikkel@S\u00F8nderborg-bibliotek.dk"
+      },
+      {
+        "LaanerNummer": 2,
+        "Navn": "Mads",
+        "Email": "Mads@S\u00F8nderborg-bibliotek.dk"
+      },
+      {
+        "LaanerNummer": 3,
+        "Navn": "Harry Potter",
+        "Email": "Harry-Potter@S\u00F8nderborg-bibliotek.dk"
+      },
+      {
+        "LaanerNummer": 4,
+        "Navn": "Hermione Granger",
+        "Email": "Hermione-Granger@S\u00F8nderborg-bibliotek.dk"
+      },
+      {
+        "LaanerNummer": 5,
+        "Navn": "Aron",
+        "Email": "Aron@S\u00F8nderborg-bibliotek.dk"
+      }
+    ],
+    [
+      {
+        "BogNummer": 1,
+        "Titel": "Harry Potter og de vises sten",
+        "Forfatter": "J.K. Rowling",
+        "Created": 1997,
+        "Udl\u00E5nt": true,
+        "Laaner": {
+          "LaanerNummer": 1,
+          "Navn": "Mikkel",
+          "Email": "Mikkel@S\u00F8nderborg-bibliotek.dk"
+        }
+      },
+      {
+        "BogNummer": 2,
+        "Titel": "Harry Potter og hemmelighedernes kammer",
+        "Forfatter": "J.K. Rowling",
+        "Created": 1998,
+        "Udl\u00E5nt": true,
+        "Laaner": {
+          "LaanerNummer": 2,
+          "Navn": "Mads",
+          "Email": "Mads@S\u00F8nderborg-bibliotek.dk"
+        }
+      },
+      {
+        "BogNummer": 3,
+        "Titel": "Harry Potter og fangen fra Azkaban",
+        "Forfatter": "J.K. Rowling",
+        "Created": 1999,
+        "Udl\u00E5nt": true,
+        "Laaner": {
+          "LaanerNummer": 5,
+          "Navn": "Aron",
+          "Email": "Aron@S\u00F8nderborg-bibliotek.dk"
+        }
+      },
+      {
+        "BogNummer": 4,
+        "Titel": "Harry Potter og ildb\u00E6geret",
+        "Forfatter": "J.K. Rowling",
+        "Created": 2000,
+        "Udl\u00E5nt": false,
+        "Laaner": null
+      },
+      {
+        "BogNummer": 5,
+        "Titel": "Harry Potter og F\u00F8nixordenen",
+        "Forfatter": "J.K. Rowling",
+        "Created": 2003,
+        "Udl\u00E5nt": false,
+        "Laaner": null
+      },
+      {
+        "BogNummer": 6,
+        "Titel": "Harry Potter og halvblodsprinsen",
+        "Forfatter": "J.K. Rowling",
+        "Created": 2005,
+        "Udl\u00E5nt": false,
+        "Laaner": null
+      },
+      {
+        "BogNummer": 7,
+        "Titel": "Harry Potter og d\u00F8dsregalierne",
+        "Forfatter": "J.K. Rowling",
+        "Created": 2007,
+        "Udl\u00E5nt": false,
+        "Laaner": null
+      },
+      {
+        "BogNummer": 8,
+        "Titel": "DuckDuckGo",
+        "Forfatter": "Tommas",
+        "Created": 1992,
+        "Udl\u00E5nt": false,
+        "Laaner": null
+      },
+      {
+        "BogNummer": 9,
+        "Titel": "Hallo",
+        "Forfatter": "Docker Who",
+        "Created": 1999,
+        "Udl\u00E5nt": false,
+        "Laaner": null
+      }
+    ]
+  ],
+  "Odense bibliotek": [
+    [
+      {
+        "LaanerNummer": 1,
+        "Navn": "Tobias",
+        "Email": "Tobias@Odense-bibliotek.dk"
+      },
+      {
+        "LaanerNummer": 2,
+        "Navn": "Claus",
+        "Email": "Claus@Odense-bibliotek.dk"
+      },
+      {
+        "LaanerNummer": 3,
+        "Navn": "Morten",
+        "Email": "Morten@Odense-bibliotek.dk"
+      }
+    ],
+    [
+      {
+        "BogNummer": 1,
+        "Titel": "Lord of the rings",
+        "Forfatter": "J.R.R. Tolkien",
+        "Created": 1954,
+        "Udl\u00E5nt": true,
+        "Laaner": {
+          "LaanerNummer": 1,
+          "Navn": "Tobias",
+          "Email": "Tobias@Odense-bibliotek.dk"
+        }
+      },
+      {
+        "BogNummer": 2,
+        "Titel": "The Hobbit",
+        "Forfatter": "J.R.R. Tolkien",
+        "Created": 1937,
+        "Udl\u00E5nt": true,
+        "Laaner": {
+          "LaanerNummer": 2,
+          "Navn": "Claus",
+          "Email": "Claus@Odense-bibliotek.dk"
+        }
+      },
+      {
+        "BogNummer": 3,
+        "Titel": "The Silmarillion",
+        "Forfatter": "J.R.R. Tolkien",
+        "Created": 1977,
+        "Udl\u00E5nt": true,
+        "Laaner": {
+          "LaanerNummer": 3,
+          "Navn": "Morten",
+          "Email": "Morten@Odense-bibliotek.dk"
+        }
+      },
+      {
+        "BogNummer": 4,
+        "Titel": "The Children of H\u00FArin",
+        "Forfatter": "J.R.R. Tolkien",
+        "Created": 2007,
+        "Udl\u00E5nt": true,
+        "Laaner": {
+          "LaanerNummer": 3,
+          "Navn": "Morten",
+          "Email": "Morten@Odense-bibliotek.dk"
+        }
+      },
+      {
+        "BogNummer": 5,
+        "Titel": "The Fall of Gondolin",
+        "Forfatter": "J.R.R. Tolkien",
+        "Created": 2018,
+        "Udl\u00E5nt": false,
+        "Laaner": null
+      },
+      {
+        "BogNummer": 6,
+        "Titel": "The Adventures of Tom Bombadil",
+        "Forfatter": "J.R.R. Tolkien",
+        "Created": 1962,
+        "Udl\u00E5nt": false,
+        "Laaner": null
+      },
+      {
+        "BogNummer": 7,
+        "Titel": "The Road Goes Ever On",
+        "Forfatter": "J.R.R. Tolkien",
+        "Created": 1967,
+        "Udl\u00E5nt": false,
+        "Laaner": null
+      }
+    ]
+  ],
+  "K\u00F8benhavn bibliotek": [
+    [
+      {
+        "LaanerNummer": 1,
+        "Navn": "Allah",
+        "Email": "Allah@K\u00F8benhavn-bibliotek.dk"
+      }
+    ],
+    [
+      {
+        "BogNummer": 1,
+        "Titel": "The Adventures of Sherlock Holmes",
+        "Forfatter": "Arthur Conan Doyle",
+        "Created": 1892,
+        "Udl\u00E5nt": true,
+        "Laaner": {
+          "LaanerNummer": 1,
+          "Navn": "Allah",
+          "Email": "Allah@K\u00F8benhavn-bibliotek.dk"
+        }
+      },
+      {
+        "BogNummer": 2,
+        "Titel": "The Hound of the Baskervilles",
+        "Forfatter": "Arthur Conan Doyle",
+        "Created": 1902,
+        "Udl\u00E5nt": true,
+        "Laaner": {
+          "LaanerNummer": 1,
+          "Navn": "Allah",
+          "Email": "Allah@K\u00F8benhavn-bibliotek.dk"
+        }
+      },
+      {
+        "BogNummer": 3,
+        "Titel": "The Sign of the Four",
+        "Forfatter": "Arthur Conan Doyle",
+        "Created": 1890,
+        "Udl\u00E5nt": true,
+        "Laaner": {
+          "LaanerNummer": 1,
+          "Navn": "Allah",
+          "Email": "Allah@K\u00F8benhavn-bibliotek.dk"
+        }
+      },
+      {
+        "BogNummer": 4,
+        "Titel": "The Valley of Fear",
+        "Forfatter": "Arthur Conan Doyle",
+        "Created": 1915,
+        "Udl\u00E5nt": false,
+        "Laaner": null
+      },
+      {
+        "BogNummer": 5,
+        "Titel": "A Study in Scarlet",
+        "Forfatter": "Arthur Conan Doyle",
+        "Created": 1887,
+        "Udl\u00E5nt": false,
+        "Laaner": null
+      },
+      {
+        "BogNummer": 6,
+        "Titel": "The Return of Sherlock Holmes",
+        "Forfatter": "Arthur Conan Doyle",
+        "Created": 1905,
+        "Udl\u00E5nt": false,
+        "Laaner": null
+      },
+      {
+        "BogNummer": 7,
+        "Titel": "His Last Bow",
+        "Forfatter": "Arthur Conan Doyle",
+        "Created": 1917,
+        "Udl\u00E5nt": false,
+        "Laaner": null
+      }
+    ]
+  ]
+}
