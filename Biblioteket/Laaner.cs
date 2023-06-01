@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Bibliotek
+namespace Biblioteket
 {
     public class Laaner : Person
     {
-        public int laanerNummer { get; }
+        public int LaanerNummer { get; }
 
         public Laaner(int laanerNummer, string navn, string email)
             : base(navn, email)
         {
-            this.laanerNummer = laanerNummer;
+            LaanerNummer = laanerNummer;
         }
     }
 }

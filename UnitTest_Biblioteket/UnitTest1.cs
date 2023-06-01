@@ -10,7 +10,7 @@ public class UnitTest1
         string todayDato = DateTime.Now.ToString("dd/MM/yyyy");
         string expected = $"Velkommen til Sønderborg bibliotek - datoen idag er: {todayDato}";
         // Act
-        string actual = biblotek.HentBibliotek();
+        string actual = biblotek.BiblioteksNavn;
         // Assert
         Assert.Equal(expected, actual);
     }

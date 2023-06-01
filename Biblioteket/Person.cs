@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Bibliotek
+namespace Biblioteket
 {
     public class Person
     {
-        public string navn { get; }
-        public string email { get; }
+        public string Navn { get; }
+        public string Email { get; }
 
         public Person(string navn, string email)
         {
-            this.navn = navn;
-            this.email = email;
+            Navn = navn;
+            Email = email;
         }
     }
 }
