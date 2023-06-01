@@ -1,7 +1,6 @@
-## Biblioteket
+# Biblioteket
 
-
-# Auther
+## Auther
 --------------------
 * **Aron Ingi Lenvig** - *Initial work* - [Aron Lenvig]
 
@@ -12,7 +11,19 @@ You can also create a new library, remove a library and see all the libraries an
 You can also create a new book, see all the books and loan a book.
 You can also create a new loaner, see all the loaners and return a book.
 
-# How to run
+## Commpatability
+--------------------
+This program is made in C# and is made in Visual Studio Code on a MacBook
+It can be run on Windows, Linux and Mac.
+
+## How to install
+--------------------
+To install this program you need to clone the repository from github.
+Then you need to open the folder in Visual Studio Code or Visual Studio.
+Then you need to open the terminal and write dotnet run.
+Then you can use the program.
+
+## How to run
 --------------------
 --Velkommen til biblioteket--
 1. Vælg bibliotek fra liste
@@ -37,3 +48,20 @@ When you have choicen a library you will see this menu:
 8. exit
 --------------------
 Here you can see the menu you can choose from.
+
+
+## To do
+--------------------
+* [x] Create a library
+* [x] Remove a library
+* [x] See all the libraries
+* [x] Create a book
+* [x] See all the books
+* [x] Loan a book
+* [x] Return a book
+* [x] Create a loaner
+* [x] See all the loaners
+* [x] Save the data
+* [x] Load the data
+* [ ] Delete a book
+* [ ] Delete a loaner
