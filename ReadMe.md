@@ -3,7 +3,7 @@
 ## Auther
 * **Aron Ingi Lenvig** - *Initial work* - [Aron Lenvig]
 
-# Description
+## Description
 This program is a library where you can select a library you want to see.
 You can also create a new library, remove a library and see all the libraries and the books in them.
 You can also create a new book, see all the books and loan a book.
