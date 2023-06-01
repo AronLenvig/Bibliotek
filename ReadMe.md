@@ -1,8 +1,18 @@
 ## Biblioteket
+
+
+# Auther
+--------------------
+* **Aron Ingi Lenvig** - *Initial work* - [Aron Lenvig]
+
+# Description
+--------------------
 This program is a library where you can select a library you want to see.
 You can also create a new library, remove a library and see all the libraries and the books in them.
+You can also create a new book, see all the books and loan a book.
+You can also create a new loaner, see all the loaners and return a book.
 
-## How to run
+# How to run
 --------------------
 --Velkommen til biblioteket--
 1. Vælg bibliotek fra liste
