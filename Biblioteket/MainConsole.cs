@@ -19,7 +19,7 @@ namespace Biblioteket
                 List<string> printList = new List<string>();
                 printList.Add("1. Vælg bibliotek fra liste");
                 printList.Add("2. Opret nyt bibliotek");
-                printList.Add("3. See tree view all biblioteker and laaner");
+                printList.Add("3. See tree view af alle biblioteker");
                 printList.Add("4. Remove et bibliotek");
                 printList.Add("5. Exit program and save");
                 Display.PrintPretties(printList, "Velkommen til biblioteket");
